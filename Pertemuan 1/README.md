@@ -20,9 +20,9 @@ Jawaban:
 
 Jawaban:
 1. https://www.tinkercad.com/things/jt3V7dlmb3V-praktikum-perulangan-?sharecode=MtP5Vuvq2ylu7-gddtWwZruVzZ2iBRxFl79opZxt5jU
-2. Efek LED yang terlihat berjalan dari kiri ke kanan dibuat dengan menggunakan perulangan **for** yang melakukan penambahan    nilai secara bertahap. Program dimulai dari pin dengan nilai paling kecil, lalu bergerak ke pin dengan nilai yang lebih      besar secara berurutan. Pada setiap langkah, LED akan dinyalakan, kemudian diberi jeda waktu, lalu dimatikan kembali.        Proses yang berulang ini menghasilkan tampilan seolah-olah LED bergerak dari arah kiri ke kanan.
-3. Efek LED yang bergerak dari kanan ke kiri merupakan kebalikan dari pola sebelumnya, yaitu menggunakan perulangan **for**     dengan pengurangan nilai secara bertahap. Program diawali dari pin dengan nilai paling tinggi, lalu berpindah ke pin         dengan nilai yang lebih rendah secara berurutan. Pada setiap langkah, LED akan dinyalakan, diberi jeda waktu, kemudian       dimatikan kembali. Proses ini membuat tampilan LED seolah-olah bergerak dari kanan ke kiri.
-    Program LED menyala tiga LED kanan dan tiga LED kiri secara bergantian
+2. Efek LED yang terlihat berjalan dari kiri ke kanan dibuat dengan menggunakan perulangan **for** yang melakukan penambahan nilai secara bertahap. Program dimulai dari pin dengan nilai paling kecil, lalu bergerak ke pin dengan nilai yang lebih besar secara berurutan. Pada setiap langkah, LED akan dinyalakan, kemudian diberi jeda waktu, lalu dimatikan kembali. Proses yang berulang ini menghasilkan tampilan seolah-olah LED bergerak dari arah kiri ke kanan.
+3. Efek LED yang bergerak dari kanan ke kiri merupakan kebalikan dari pola sebelumnya, yaitu menggunakan perulangan **for** dengan pengurangan nilai secara bertahap. Program diawali dari pin dengan nilai paling tinggi, lalu berpindah ke pin dengan nilai yang lebih rendah secara berurutan. Pada setiap langkah, LED akan dinyalakan, diberi jeda waktu, kemudian dimatikan kembali. Proses ini membuat tampilan LED seolah-olah bergerak dari kanan ke kiri.
+4. Program LED menyala tiga LED kanan dan tiga LED kiri secara bergantian
 int timer = 300; // Variabel untuk mengatur waktu jeda (delay)
 
 void setup() {
